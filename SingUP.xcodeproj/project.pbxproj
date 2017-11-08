@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D282121F1FB2E58F00E4F56A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282121E1FB2E58F00E4F56A /* AppDelegate.swift */; };
+		D28212211FB2E58F00E4F56A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28212201FB2E58F00E4F56A /* ViewController.swift */; };
+		D28212241FB2E58F00E4F56A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28212221FB2E58F00E4F56A /* Main.storyboard */; };
+		D28212261FB2E58F00E4F56A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28212251FB2E58F00E4F56A /* Assets.xcassets */; };
+		D28212291FB2E58F00E4F56A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D28212271FB2E58F00E4F56A /* LaunchScreen.storyboard */; };
+		D28212341FB2E58F00E4F56A /* SingUPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28212331FB2E58F00E4F56A /* SingUPTests.swift */; };
+		D282123F1FB2E58F00E4F56A /* SingUPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D282123E1FB2E58F00E4F56A /* SingUPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D28212301FB2E58F00E4F56A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28212131FB2E58F00E4F56A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D282121A1FB2E58F00E4F56A;
+			remoteInfo = SingUP;
+		};
+		D282123B1FB2E58F00E4F56A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28212131FB2E58F00E4F56A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D282121A1FB2E58F00E4F56A;
+			remoteInfo = SingUP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D282121B1FB2E58F00E4F56A /* SingUP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingUP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D282121E1FB2E58F00E4F56A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D28212201FB2E58F00E4F56A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D28212231FB2E58F00E4F56A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D28212251FB2E58F00E4F56A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28212281FB2E58F00E4F56A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D282122A1FB2E58F00E4F56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D282122F1FB2E58F00E4F56A /* SingUPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingUPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28212331FB2E58F00E4F56A /* SingUPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUPTests.swift; sourceTree = "<group>"; };
+		D28212351FB2E58F00E4F56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D282123A1FB2E58F00E4F56A /* SingUPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingUPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D282123E1FB2E58F00E4F56A /* SingUPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUPUITests.swift; sourceTree = "<group>"; };
+		D28212401FB2E58F00E4F56A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28212181FB2E58F00E4F56A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D282122C1FB2E58F00E4F56A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28212371FB2E58F00E4F56A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28212121FB2E58F00E4F56A = {
+			isa = PBXGroup;
+			children = (
+				D282121D1FB2E58F00E4F56A /* SingUP */,
+				D28212321FB2E58F00E4F56A /* SingUPTests */,
+				D282123D1FB2E58F00E4F56A /* SingUPUITests */,
+				D282121C1FB2E58F00E4F56A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D282121C1FB2E58F00E4F56A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D282121B1FB2E58F00E4F56A /* SingUP.app */,
+				D282122F1FB2E58F00E4F56A /* SingUPTests.xctest */,
+				D282123A1FB2E58F00E4F56A /* SingUPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D282121D1FB2E58F00E4F56A /* SingUP */ = {
+			isa = PBXGroup;
+			children = (
+				D282121E1FB2E58F00E4F56A /* AppDelegate.swift */,
+				D28212201FB2E58F00E4F56A /* ViewController.swift */,
+				D28212221FB2E58F00E4F56A /* Main.storyboard */,
+				D28212251FB2E58F00E4F56A /* Assets.xcassets */,
+				D28212271FB2E58F00E4F56A /* LaunchScreen.storyboard */,
+				D282122A1FB2E58F00E4F56A /* Info.plist */,
+			);
+			path = SingUP;
+			sourceTree = "<group>";
+		};
+		D28212321FB2E58F00E4F56A /* SingUPTests */ = {
+			isa = PBXGroup;
+			children = (
+				D28212331FB2E58F00E4F56A /* SingUPTests.swift */,
+				D28212351FB2E58F00E4F56A /* Info.plist */,
+			);
+			path = SingUPTests;
+			sourceTree = "<group>";
+		};
+		D282123D1FB2E58F00E4F56A /* SingUPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D282123E1FB2E58F00E4F56A /* SingUPUITests.swift */,
+				D28212401FB2E58F00E4F56A /* Info.plist */,
+			);
+			path = SingUPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D282121A1FB2E58F00E4F56A /* SingUP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28212431FB2E58F00E4F56A /* Build configuration list for PBXNativeTarget "SingUP" */;
+			buildPhases = (
+				D28212171FB2E58F00E4F56A /* Sources */,
+				D28212181FB2E58F00E4F56A /* Frameworks */,
+				D28212191FB2E58F00E4F56A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingUP;
+			productName = SingUP;
+			productReference = D282121B1FB2E58F00E4F56A /* SingUP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D282122E1FB2E58F00E4F56A /* SingUPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28212461FB2E58F00E4F56A /* Build configuration list for PBXNativeTarget "SingUPTests" */;
+			buildPhases = (
+				D282122B1FB2E58F00E4F56A /* Sources */,
+				D282122C1FB2E58F00E4F56A /* Frameworks */,
+				D282122D1FB2E58F00E4F56A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28212311FB2E58F00E4F56A /* PBXTargetDependency */,
+			);
+			name = SingUPTests;
+			productName = SingUPTests;
+			productReference = D282122F1FB2E58F00E4F56A /* SingUPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D28212391FB2E58F00E4F56A /* SingUPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28212491FB2E58F00E4F56A /* Build configuration list for PBXNativeTarget "SingUPUITests" */;
+			buildPhases = (
+				D28212361FB2E58F00E4F56A /* Sources */,
+				D28212371FB2E58F00E4F56A /* Frameworks */,
+				D28212381FB2E58F00E4F56A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D282123C1FB2E58F00E4F56A /* PBXTargetDependency */,
+			);
+			name = SingUPUITests;
+			productName = SingUPUITests;
+			productReference = D282123A1FB2E58F00E4F56A /* SingUPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28212131FB2E58F00E4F56A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Soondori;
+				TargetAttributes = {
+					D282121A1FB2E58F00E4F56A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D282122E1FB2E58F00E4F56A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D282121A1FB2E58F00E4F56A;
+					};
+					D28212391FB2E58F00E4F56A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D282121A1FB2E58F00E4F56A;
+					};
+				};
+			};
+			buildConfigurationList = D28212161FB2E58F00E4F56A /* Build configuration list for PBXProject "SingUP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28212121FB2E58F00E4F56A;
+			productRefGroup = D282121C1FB2E58F00E4F56A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D282121A1FB2E58F00E4F56A /* SingUP */,
+				D282122E1FB2E58F00E4F56A /* SingUPTests */,
+				D28212391FB2E58F00E4F56A /* SingUPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28212191FB2E58F00E4F56A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28212291FB2E58F00E4F56A /* LaunchScreen.storyboard in Resources */,
+				D28212261FB2E58F00E4F56A /* Assets.xcassets in Resources */,
+				D28212241FB2E58F00E4F56A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D282122D1FB2E58F00E4F56A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28212381FB2E58F00E4F56A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28212171FB2E58F00E4F56A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28212211FB2E58F00E4F56A /* ViewController.swift in Sources */,
+				D282121F1FB2E58F00E4F56A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D282122B1FB2E58F00E4F56A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28212341FB2E58F00E4F56A /* SingUPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28212361FB2E58F00E4F56A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D282123F1FB2E58F00E4F56A /* SingUPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D28212311FB2E58F00E4F56A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D282121A1FB2E58F00E4F56A /* SingUP */;
+			targetProxy = D28212301FB2E58F00E4F56A /* PBXContainerItemProxy */;
+		};
+		D282123C1FB2E58F00E4F56A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D282121A1FB2E58F00E4F56A /* SingUP */;
+			targetProxy = D282123B1FB2E58F00E4F56A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D28212221FB2E58F00E4F56A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28212231FB2E58F00E4F56A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D28212271FB2E58F00E4F56A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D28212281FB2E58F00E4F56A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D28212411FB2E58F00E4F56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D28212421FB2E58F00E4F56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28212441FB2E58F00E4F56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingUP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soondori.SingUP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D28212451FB2E58F00E4F56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingUP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soondori.SingUP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D28212471FB2E58F00E4F56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingUPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soondori.SingUPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingUP.app/SingUP";
+			};
+			name = Debug;
+		};
+		D28212481FB2E58F00E4F56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingUPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soondori.SingUPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SingUP.app/SingUP";
+			};
+			name = Release;
+		};
+		D282124A1FB2E58F00E4F56A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingUPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soondori.SingUPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingUP;
+			};
+			name = Debug;
+		};
+		D282124B1FB2E58F00E4F56A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SingUPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = soondori.SingUPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SingUP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28212161FB2E58F00E4F56A /* Build configuration list for PBXProject "SingUP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28212411FB2E58F00E4F56A /* Debug */,
+				D28212421FB2E58F00E4F56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28212431FB2E58F00E4F56A /* Build configuration list for PBXNativeTarget "SingUP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28212441FB2E58F00E4F56A /* Debug */,
+				D28212451FB2E58F00E4F56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28212461FB2E58F00E4F56A /* Build configuration list for PBXNativeTarget "SingUPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28212471FB2E58F00E4F56A /* Debug */,
+				D28212481FB2E58F00E4F56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28212491FB2E58F00E4F56A /* Build configuration list for PBXNativeTarget "SingUPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D282124A1FB2E58F00E4F56A /* Debug */,
+				D282124B1FB2E58F00E4F56A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D28212131FB2E58F00E4F56A /* Project object */;
+}
